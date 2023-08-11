@@ -6,8 +6,8 @@
          "duration":"11 mins",
          "desc":"Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].\n\nThe product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.\n\nYou must write an algorithm that runs in O(n) time and without using the division operation.",
          "example":{
-            "one":"Input: nums = [1,2,3,4] \nOutput: [24,12,8,6]",
-            "two":"Input: nums = [-1,1,0,-3,3] \nOutput: [0,0,9,0,0]"
+            "one":"Input: nums = [1,2,3,4] \n Output: [24,12,8,6]",
+            "two":"Input: nums = [-1,1,0,-3,3] \n Output: [0,0,9,0,0]"
          }
       },
       {
@@ -16,8 +16,8 @@
          "duration":"10 mins",
          "desc":"In a scenario inspired by the Ramayan, there is a row of arrows represented by an array of integers. Each integer's absolute value represents the arrow's size, and the sign represents its direction (positive for right, negative for left). Arrows of the same size moving in the same direction will never collide. However, if two arrows with different sizes collide, the smaller one will explode. If both are the same size, both will explode. Determine the state of the arrows after all collisions.",
          "example":{
-            "one":"Input: arrows = [50,100,-50] \nOutput: [50,100]",
-            "two":"Input: arrows = [10,-10] \nOutput: []"
+            "one":"Input: arrows = [50,100,-50] \n Output: [50,100]",
+            "two":"Input: arrows = [10,-10] \n Output: []"
          }
       },
       {
@@ -26,8 +26,8 @@
          "duration":"10 mins",
          "desc":"Given a 2D grid map consisting of '1's (land) and '0's (water), where '1's represent connected landmasses and '0's represent water, find and return the number of islands. An island is surrounded by water and is formed by connecting adjacent lands in two directions (vertically or horizontally). Assume that the grid's boundary cases, which are all four edges of the grid, are surrounded by water.",
          "example":{
-            "one":"Input: grid = [["1","1","1","0","0"],["1","1","0","0","0"],["0","0","1","0","1"],["0","0","0","1","1"]] \nOutput: 3",
-            "two":"Input: grid = [["1","1","0","0"],["1","1","0","0"],["0","0","1","0"],["0","0","0","1"]] \nOutput: 4"
+            "one":"Input: grid = [["1","1","1","0","0"],["1","1","0","0","0"],["0","0","1","0","1"],["0","0","0","1","1"]] \n Output: 3",
+            "two":"Input: grid = [["1","1","0","0"],["1","1","0","0"],["0","0","1","0"],["0","0","0","1"]] \n Output: 4"
          }
       },
       {
@@ -36,8 +36,8 @@
          "duration":"15 mins",
          "desc":"Given an integer array nums, find the contiguous subarray (containing at least one element) with the largest sum and return the sum.",
          "example":{
-            "one":"Input: nums = [-2,1,-3,4,-1,2,1,-5,4] \nOutput: 6 \nExplanation: [4,-1,2,1] has the largest sum = 6.",
-            "two":"Input: nums = [1] \nOutput: 1"
+            "one":"Input: nums = [-2,1,-3,4,-1,2,1,-5,4] \n Output: 6 \nExplanation: [4,-1,2,1] has the largest sum = 6.",
+            "two":"Input: nums = [1] \n Output: 1"
          }
       },
       {
@@ -46,8 +46,8 @@
          "duration":"10 mins",
          "desc":"Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if the brackets are closed in the correct order.",
          "example":{
-            "one":"Input: s = \"()\" \nOutput: true",
-            "two":"Input: s = \"([)]\" \nOutput: false"
+            "one":"Input: s = \"()\" \n Output: true",
+            "two":"Input: s = \"([)]\" \n Output: false"
          }
       },
       {
@@ -56,8 +56,8 @@
          "duration":"10 mins",
          "desc":"Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to the target.",
          "example":{
-            "one":"Input: nums = [2,7,11,15], target = 9 \nOutput: [0,1]",
-            "two":"Input: nums = [3,2,4], target = 6 \nOutput: [1,2]"
+            "one":"Input: nums = [2,7,11,15], target = 9 \n Output: [0,1]",
+            "two":"Input: nums = [3,2,4], target = 6 \n Output: [1,2]"
          }
       },
       {
@@ -66,8 +66,8 @@
          "duration":"5 mins",
          "desc":"Write a function that reverses a string. Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.",
          "example":{
-            "one":"Input: s = [\"h\",\"e\",\"l\",\"l\",\"o\"] \nOutput: [\"o\",\"l\",\"l\",\"e\",\"h\"]",
-            "two":"Input: s = [\"H\",\"a\",\"n\",\"n\",\"a\",\"h\"] \nOutput: [\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]"
+            "one":"Input: s = [\"h\",\"e\",\"l\",\"l\",\"o\"] \n Output: [\"o\",\"l\",\"l\",\"e\",\"h\"]",
+            "two":"Input: s = [\"H\",\"a\",\"n\",\"n\",\"a\",\"h\"] \n Output: [\"h\",\"a\",\"n\",\"n\",\"a\",\"H\"]"
          }
       },
       {
@@ -76,8 +76,8 @@
          "duration":"10 mins",
          "desc":"Given an array nums of size n, find the majority element. The majority element is the element that appears more than ⌊n/2⌋ times. You may assume that the majority element always exists in the array.",
          "example":{
-            "one":"Input: nums = [3,2,3] \nOutput: 3",
-            "two":"Input: nums = [2,2,1,1,1,2,2] \nOutput: 2"
+            "one":"Input: nums = [3,2,3] \n Output: 3",
+            "two":"Input: nums = [2,2,1,1,1,2,2] \n Output: 2"
          }
       },
       {
@@ -86,8 +86,8 @@
          "duration":"10 mins",
          "desc":"Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.",
          "example":{
-            "one":"Input: x = 121 \nOutput: true",
-            "two":"Input: x = -121 \nOutput: false"
+            "one":"Input: x = 121 \n Output: true",
+            "two":"Input: x = -121 \n Output: false"
          }
       },
       {
@@ -96,8 +96,8 @@
          "duration":"10 mins",
          "desc":"Write a program that outputs the string representation of numbers from 1 to n. But for multiples of three, it should output \"Fizz\" instead of the number and for the multiples of five, it should output \"Buzz\". For numbers which are multiples of both three and five, output \"FizzBuzz\".",
          "example":{
-            "one":"Input: n = 3 \nOutput: [\"1\",\"2\",\"Fizz\"]",
-            "two":"Input: n = 5 \nOutput: [\"1\",\"2\",\"Fizz\",\"4\",\"Buzz\"]"
+            "one":"Input: n = 3 \n Output: [\"1\",\"2\",\"Fizz\"]",
+            "two":"Input: n = 5 \n Output: [\"1\",\"2\",\"Fizz\",\"4\",\"Buzz\"]"
          }
       }
    ]
